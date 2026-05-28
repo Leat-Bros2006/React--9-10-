@@ -33,7 +33,7 @@ export default function HeaderSection() {
                 </button>
             </header>
 
-            <article className={`${isActive ? "left-0" : "-left-full"} min-h-screen w-[300px] bg-slate-950 text-white top-0 absolute z-20 transition-all duration-300`}>
+            <article className={`${isActive ? "left-0" : "-left-full"} min-h-screen w-[300px] bg-slate-950 text-white top-0 fixed z-20 transition-all duration-300`}>
                 <div className="border-b border-b-white p-4 flex justify-end">
                     <button
                         onClick={closeNavbar}
